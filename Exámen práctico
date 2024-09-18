@@ -1,0 +1,18 @@
+print("Bienvenido a nuestra página web, en este dominio calcularemos su índice de masa corporal (IMC), la edad en la que aplica este programa son los 16 años")
+nombre1 = input("Escriba su nombre por favor")
+print("Para calcula su índice de masa corporal, por favor escriba su estatura en metros cuadrados y después su peso en kilogramos")
+altura1 = int(input("Escriba su altura en metros cuadrados por favor"))
+peso1 = int(input("Ahora escriba su peso en kilogramos por favor"))
+resultado1 = peso1 / altura1
+print("Su índice de masa corporal se encuentra en " + resultado1)
+print("En la escala del índice de la masa corporal, este valor nos ayuda a poder determinar si se encuentra en un peso saludable o no")
+if resultado1 <= 18.5:
+    print("Usted se encuentra en un peso bajo")
+rango1 = range(18.5, 24.9)
+if resultado1:  rango1 
+print("Usted se encuentra en un peso saludable")
+rango2 = range(25, 29.9)
+if resultado1: rango2
+print("Usted se encuentra en sobrepeso")
+if resultado1 >= 30:
+    print("Usted tiene obesidad")
